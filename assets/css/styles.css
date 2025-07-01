@@ -6,11 +6,11 @@
     --header-height: 3rem;
 
     /* ROOT COLORS */
-    --first-color: ;
-    --first-color-dark: ;
-    --text-color: ;
-    --first-color-light: ;
-    --first-color-lighten: ;
+    --first-color: #423E28;
+    --first-color-dark: #1E2019;
+    --text-color: #CFEE9E;
+    --first-color-light: #394032;
+    --first-color-lighten: #8DAB7F;
     
     /* ROOT FONT & TYPOGRAPHY */
     --body-font: 'Poppins', sans-serif;
@@ -76,8 +76,50 @@ body {
     line-height: 1.6;
 }
 
+h1, h2, h3, ul, p {
+    margin: 0;
+}
+
+h2, h3 {
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* CLASS CSS */
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section-title, .section-subtitle {
+    text-align: center;
+}
+
+.section-title {
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+}
+
+.section-subtitle {
+    display: block;
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-semi-bold);
+
+}
 
 /* LAYOUT */
 
