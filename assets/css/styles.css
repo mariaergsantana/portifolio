@@ -254,7 +254,6 @@ img {
 .show-scroll {
     visibility: visible;
     bottom: 1.5rem;
-
 }
 
 /*----- HOME ----- */
@@ -303,7 +302,7 @@ img {
 }
 
 .home__img img {
-    width: 240px;
+    width: 480px;
 }
 
 .home__social {
@@ -340,7 +339,10 @@ img {
     background-color: var(--first-color-light);
 }
 
-
 /* ABOUT */
+.about__data {
+    
+}
+
 
 /* QUALIFICATIONS */
