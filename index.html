@@ -230,12 +230,13 @@
             <h2 class="section-title">Portfolio</h2>
             
             <div class="portfolio__nav">
-                <span class="portfolio__item">Websites</span>
-                <span class="portfolio__item">Ui/UX Designs</span>
+                <span class="portfolio__item" data-filter=".all">All</span>
+                <span class="portfolio__item" data-filter=".web">Websites</span>
+                <span class="portfolio__item" data-filter=".ux">Ui/UX Designs</span>
             </div>
 
             <div class="div portfolio__container bd-grid">
-                <div class="portfolio__content">
+                <div class="portfolio__content mix web">
                     <!-- HAVE TO INSERT THE PHOTO OF A CREATION OF MINE -->
                     <a href="#"><img src="assets/images/dahlia.png" alt="" class="portfolio__img"></a>
                     <div class="portfolio__data">
@@ -245,18 +246,22 @@
                     </div>
                 </div>
 
+                <div class="portfolio__content mix ux">
+                    <!-- HAVE TO INSERT THE PHOTO OF A CREATION OF MINE -->
+                    <a href="#"><img src="assets/images/lilies.avif" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Ui/UX</span>
+                        <a href="#"><h2 class="portfolio__title">New portfolio of work done for a client.</h2></a>
+                        <a href="#" class="button button-link">View Details</a>
+                    </div>
+                </div>
+                
                 <!-- COULD ADD MORE PROOF OF SERVICES DONE -->
-
             </div>
-
-
-
         </section>
 
 
-
         <!-- CONTACT ME -->
-
 
     </main>
 
@@ -264,7 +269,7 @@
     
 
     <!-- MIXITUP FILTER -->
-    <script src=""></script> 
+    <script src="assets/js/mixitup.min.js"></script> 
 
     <!-- SWIPER JS -->
     <script src=""></script> 
